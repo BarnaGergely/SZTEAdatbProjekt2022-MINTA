@@ -7,11 +7,10 @@
 - **[Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html)** 
   - Minden témánál van egy projektmunka menüpont, ahol egy minta projektben bemutatja a tanár mit kell csinálni. Ezekre minden képpen nézz rá!
 
-
 ## Követelmények röviden:
 
 - min. 4 tábla
-- tervezési dokumentáció
+- tervezési dokumentáció PDF-ben
 - EK diagram
 - Leképezés
 - Normalizálás
@@ -32,6 +31,12 @@
 - Az összetett lekérdezések, amelyek az alkalmazásban is meg vannak valósítva.
 - Megvalósítás (fejlesztő eszközök, nemtriviális megoldások).
 - Az elkészült alkalmazás funkciói (legalább felsorolás szintjén)
+
+## Konvertálás
+
+Ezekkel tudod a dokumentációt normális formátumba konvertárni (PDF-ben kell beadni):
+- [MarkDown -> WordDoc konverter](https://products.aspose.app/pdf/conversion/md-to-word)
+- [MarkDown -> PDF](https://www.markdowntopdf.com/)
 
 <>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>
 
