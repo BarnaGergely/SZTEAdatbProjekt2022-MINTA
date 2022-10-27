@@ -194,10 +194,6 @@ mondattal javasolt ezt megindokolni (a definíciók alapán). Ha nem, akkor el k
 végezni a szükséges átalakításokat a 2NF-re ill. 3NF-re hozáshoz, és felírni az ennek
 során módosult ill. új sémákat.
 
-Ezen a ponton én is bizonytalan vagyok, mert nem olvastam még a minta megoldást. :) Két megoldást tudok elképzelni
-  a) Össze kell vonni az összes táblát egybe, fell kell írni az összes attribútum funkcionális követelményeit és utána újra normalizálni 3NF-ig.
-  b) Táblánkként fel kell írni a függőségeket aztán külön normalizálni a táblákat.
-
   Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html
 ```
 
