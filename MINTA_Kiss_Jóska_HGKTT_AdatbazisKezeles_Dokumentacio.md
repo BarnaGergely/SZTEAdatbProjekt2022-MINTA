@@ -43,7 +43,7 @@ A blokkokban lévő szövegek és az ez a mondat alatt lévő vonal feletti rés
 
 <>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<> E felett törlj mindent!
 
-# Hotel nyilvántartási rendszer adatbázisok kötelező feladat
+# Könyvtár adatbázisok kötelező feladat
 
 - Név: Kiss Jóska
 - Neptun kód: 
