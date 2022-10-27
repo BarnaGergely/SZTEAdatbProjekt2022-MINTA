@@ -4,6 +4,9 @@
   - Próbáltam bele írni minden részhez egy 3-as teljesítésének követelményeit, de ez nem teljes.
 - Random sablon valamelyik gyakvezírtűl: [mintadoksi.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/mintadoksi.pdf)
 - Projekt ajánlott lépései (neten találtam, még nem teljesen aktulizáltam): [Projekt_lepesek.md](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/Projekt_lepesek.md)
+- **[Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html)** 
+  - Minden témánál van egy projektmunka menüpont, ahol egy minta projektben bemutatja a tanár mit kell csinálni. Ezekre minden képpen nézz rá!
+
 
 ## Követelmények röviden:
 
