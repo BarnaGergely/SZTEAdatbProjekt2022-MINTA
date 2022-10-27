@@ -1,0 +1,1 @@
+# SZTEAdatBProjekt2022-MINTA
