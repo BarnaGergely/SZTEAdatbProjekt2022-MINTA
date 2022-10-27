@@ -41,6 +41,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ```
 Ide egy tömör, 3-6 soros bekezdés kerüljön arról, hogy mire szolgál az adatbázis és a
 program. A pirossal jelölt részeket kell megfogalmazni a saját munka alapján.
+
+Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka.html
 ```
 
 ```
@@ -68,6 +70,8 @@ Követelmények:
 ```
 Meg kellene fogalmazni, hogy mit csinál az alkalmazás, milyen szolgáltatásokkal és
 esetleges további, plusz funkciókkal rendelkezik, amelyek az alapelvárásokban nem [szerepelnek.
+
+Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka.html
 ```
 
 ```
@@ -79,10 +83,12 @@ Követelmények:
 
 ## Egyed-kapcsolat diagram
 
-![image](SzallodaProjektAdatbazisDiagram.drawio.svg)
+![image](konyvtar_pelda_osszetett_NM_feher.svg)
 
 ```
 Az EK-diagramot mutató ábrának kell itt lennie.
+
+Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka.html
 ```
 
 ```
@@ -101,6 +107,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ```
 A diagramot magyarázó szövegnek kell itt szerepelnie.
+
+Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka.html
 ```
 
 ```
@@ -136,6 +144,8 @@ sémákat megadni. Ha valamilyen átalakítás külön magyarázatra szorul, azt
 jelezni itt. A kulcsokat, külső kulcsokat minden sémában jelölni kell! A felírt sémák itt
 már teljesítsék az 1NF-et, azaz a leképezéssel kapott sémákban legyen minden
 attribútum atomi!
+
+Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html
 ```
 
 ```
@@ -183,9 +193,11 @@ mondattal javasolt ezt megindokolni (a definíciók alapán). Ha nem, akkor el k
 végezni a szükséges átalakításokat a 2NF-re ill. 3NF-re hozáshoz, és felírni az ennek
 során módosult ill. új sémákat.
 
-Ezen a ponton én is bizonytalan vagyok. Két megoldást tudok elképzelni
+Ezen a ponton én is bizonytalan vagyok, mert nem olvastam még a minta megoldást. :) Két megoldást tudok elképzelni
   a) Össze kell vonni az összes táblát egybe, fell kell írni az összes attribútum funkcionális követelményeit és utána újra normalizálni 3NF-ig.
   b) Táblánkként fel kell írni a függőségeket aztán külön normalizálni a táblákat.
+
+  Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html
 ```
 
 ```
@@ -202,6 +214,8 @@ A táblaterveknek megfelelő ábrákat kell itt feltüntetni vagy a táblákat l
 parancsok kódját kell ide másolni. Bizonyos adatbázis-kezelő alkalmazások grafikus
 felületén van olyan funkció, amely a kívánt módon, tervezési nézetben rajzolja ki egy-
 egy „dobozként” a táblákat.
+
+Minta megoldáa: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka3.html
 ```
 
 ```
@@ -223,6 +237,8 @@ követelmények szerint az alábbi fajta nemtriviális lekérdezéseket kell ké
 lekérdezésben allekérdezés szerepeljen."
 
 Fontos, hogy ezeket a lekérdezéseket be kell építeni az alkalmazásba!
+
+Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka5.html
 ```
 
 ```
