@@ -12,7 +12,7 @@ Ebbe a repo-ba gyűjötöttem össze a 2022-es SZTE Adatbázisok gyakorlat proje
 ## Hasznos linkek:
 - [Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html) 
   - Minden témánál van egy projektmunka menüpont, ahol egy minta projektben bemutatja a tanár mit kell csinálni. Ezekre minden képpen nézz rá!
-- [Rendszerfejlesztés I. jegyzet] (https://okt.inf.szte.hu/rf1/)
+- [Rendszerfejlesztés I. jegyzet](https://okt.inf.szte.hu/rf1/)
 
 ### Konvertálás
 
