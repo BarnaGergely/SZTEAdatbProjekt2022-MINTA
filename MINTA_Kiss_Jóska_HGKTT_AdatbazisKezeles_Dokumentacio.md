@@ -1,9 +1,9 @@
 # Követelmények
 
-- **A teljes követelmény lista a [adatbazisok_kovetelmenyek_TEA_2022.pdf](adatbazisok_kovetelmenyek_TEA_2022.pdf) fájlban van felsorolva.**
+- **A teljes követelmény lista a [adatbazisok_kovetelmenyek_TEA_2022.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/adatbazisok_kovetelmenyek_TEA_2022.pdf) fájlban van felsorolva.**
   - Próbáltam bele írni minden részhez egy 3-as teljesítésének követelményeit, de ez nem teljes.
-- Random sablon valamelyik gyakvezírtűl: [mintadoksi.pdf](mintadoksi.pdf)
-- Projekt ajánlott lépései (neten találtam, még nem teljesen aktulizáltam): [Projekt_lepesek.md](Projekt_lepesek.md)
+- Random sablon valamelyik gyakvezírtűl: [mintadoksi.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/mintadoksi.pdf)
+- Projekt ajánlott lépései (neten találtam, még nem teljesen aktulizáltam): [Projekt_lepesek.md](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/Projekt_lepesek.md)
 
 ## Követelmények röviden:
 
