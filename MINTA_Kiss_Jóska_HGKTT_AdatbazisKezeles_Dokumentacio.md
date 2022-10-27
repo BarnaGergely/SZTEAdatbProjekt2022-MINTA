@@ -30,9 +30,20 @@
 - Megvalósítás (fejlesztő eszközök, nemtriviális megoldások).
 - Az elkészült alkalmazás funkciói (legalább felsorolás szintjén)
 
--<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>
+<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>
 
-# `Hotel nyilvántartási rendszer` adatbázisok kötelező feladat
+# Töröld a bekeretezett részeket és írd át a szövegeket!
+
+Egy csomó megjegyzést és alapvetően hibás vagy hiányos feladat megoldást hagytam a dokumentumban. Ezeket írd át vagy töröld, ha nincs rájuk szükség.
+
+A blokkokban lévő szövegek és az ez a mondat alatt lévő vonal feletti részek, csak neked tanácsok. Töröld őket mielőtt beadnád a dokumentumot!
+
+<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<> E felett törlj mindent!
+
+# Hotel nyilvántartási rendszer adatbázisok kötelező feladat
+
+- Név: Kiss Jóska
+- Neptun kód: 
 
 ## Rendszerspecifikáció
 
