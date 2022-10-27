@@ -131,21 +131,13 @@ Követelmények:
 
 ## Relációs adatbázisséma
 
-Személy(Keresztnév, Vezetéknév, _<u>Személyi igazolvány szám</u>_, Személy állapota)
+OLVASÓ(_<u>olvasójegy</u>_, név, lakcím, születési dátum)
 
-Vendég(<u>Személyi igazolvány szám</u>, Vendég állapota)
+KÖNYV(_<u>könyvszám</u>_, cím, kiadó, kiadás éve)
 
-Rang(<u>Személyi igazolvány szám</u>, Rang megnevezése)
+SZERZŐK(_<u>könyvszám</u>_, szerzőnév, sorszám)
 
-Dolgozó(<u>Személyi igazolvány szám</u>, Dolgozó állapota, Dolgozó beosztása, Dolgozó fizetése)
-
-Kupon(<u>Lejárati dátum</u>, <u>Leárazás értéke</u>, <u>Tulajdonos</u>, Kupon állapota)
-
-Szoba(<u>Szobaszám</u>, Megnevezés, Szoba állapota, Legutóbbi takarító, Legutóbbi takarítás időpontja)
-
-Foglalás(_<u>Foglalás száma</u>_, _Szobaszám_, Foglalás kezdete, Foglalás vége, Foglalás állapota)
-
-Foglaló(<u>Foglalás száma</u>, <u>Személyi igazolvány szám</u>)
+KÖLCSÖNZÉSEK(_<u>könyvszám, olvasószám, _<u>kölcsönzés időpontja</u>_, visszahozta)
 
 ```
 Ide a fenti EK-modell relációs adatbázissémára történő leképezésének eredménye
@@ -171,27 +163,17 @@ Követelmények:
 
 ## Normalizálás
 
-1. {Személyi igazolvány szám} -> {Vendég állapota, Személy állapota, Keresztnév, Vezetéknév, Dolgozó állapota, Dolgozó beosztása, Dolgozó fizetése, Rang megnevezése}
-
-2. {Szobaszám} -> {Megnevezés, Szoba állapota, Legutóbbi takarító, Legutóbbi takarítás időpontja}
-
-3. {Foglalás száma} -> {Szobaszám, Foglalás kezdete, Foglalás vége, Foglalás állapota, Személyi igazolvány szám}
-
-4. {Lejárati dátum, Leárazás értéke, Tulajdonos} -> {Kupon állapota}
-
-5. {Személyi igazolvány szám, Keresztnév} -> {Vezetéknév, Személy állapota}
-
-6. {Személyi igazolvány szám, Dolgozó beosztása} -> {Dolgozó fizetése, Dolgozó állapota}
-
-7. {Foglalás száma, Szobaszám} -> {Foglalás kezdete, Foglalás vége, Foglalás állapota}
-
-8. {Személyi igazolvány szám, Rang megnevezése} -> {Rang megnevezése}
-
 ### Funkcionális függőségek
-
-### Összes attribútum egy táblában
+ 
+1. {olvasójegy} →{név, lakcím, születési dátum}
+2. {olvasójegy, születési dátum} →{név, lakcím}
+3. {olvasójegy, név} →{lakcím, születési dátum}
+4. {olvasójegy, lakcím} →{név, születési dátum}
+5. stb.
 
 ### Kulcsok
+  
+### 1NF
 
 ### 2NF
 
