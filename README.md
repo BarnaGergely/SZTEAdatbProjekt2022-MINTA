@@ -9,12 +9,12 @@ Ebbe a repo-ba gyűjötöttem össze a 2022-es SZTE Adatbázisok gyakorlat proje
 - Projekt teendői lépésről lépésre: [Projekt_lepesek.md](Projekt_lepesek.md)
 - Random dokumentáció sablon Kardos gyakvezírtül: [mintadoksi.pdf](mintadoksi.pdf)
 
-## Weblapok:
+## Hasznos linkek:
 - [Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html) 
   - Minden témánál van egy projektmunka menüpont, ahol egy minta projektben bemutatja a tanár mit kell csinálni. Ezekre minden képpen nézz rá!
 - [Rendszerfejlesztés I. jegyzet] (https://okt.inf.szte.hu/rf1/)
 
-## Konvertálás
+### Konvertálás
 
 Ezekkel tudod a dokumentációt normális formátumba konvertárni:
 - [MarkDown -> WordDoc konverter](https://products.aspose.app/pdf/conversion/md-to-word)
