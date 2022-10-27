@@ -36,7 +36,9 @@
 
 Egy csomó megjegyzést és alapvetően hibás vagy hiányos feladat megoldást hagytam a dokumentumban. Ezeket írd át vagy töröld, ha nincs rájuk szükség.
 
-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>
+A blokkokban lévő szövegek és az ez a mondat alatt lévő vonal feletti részek, csak neked tanácsok. Töröld őket mielőtt beadnád a dokumentumot!
+
+<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<> E felett törlj mindent!
 
 # Hotel nyilvántartási rendszer adatbázisok kötelező feladat
 
