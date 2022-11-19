@@ -24,6 +24,7 @@
 3. Jelöld a kulcsokat és a külső kulcsokat
 4. Írd fel a funkcionális függőségeket
 5. Ha nem lenne 3NF-ben, normalizálj 3NF-ig
+   - Ha rögötön 3NF-ben van egy tábla akkor is igazlni kell hogy abban van egy kis leírással. [Normalizálás - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka2.html)-ban van erről szó. 
 
 - [Leképezés - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html)
 - [Funkcionális függőség - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka1.html)
