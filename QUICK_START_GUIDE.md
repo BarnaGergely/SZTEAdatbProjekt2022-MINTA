@@ -3,6 +3,7 @@
 ## 0. Nézd át a követelményeket és a dokumentáció sablont
 
 - [adatbazisok_kovetelmenyek_TEA_2022.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/adatbazisok_kovetelmenyek_TEA_2022.pdf)
+   - A szürke részek a kötelező elemek
 - [MINTA_Dokumentacio.md](MINTA_Kiss_Jóska_HGKTT_AdatbazisKezeles_Dokumentacio.md)
 
 ## 1. Tervezd meg a táblákat és a funkciókat majd rajzold meg az Egyed-kapcsolat diagrammot
@@ -17,7 +18,8 @@
 
 ## 3. Képezd képezd le relációsémákká a táblákat és hozdd létre a dokumentációt
 
-1. Másold le a táblákat és az attribútumokat `TáblaNeve(attributum1, attributum2, attributum3)`
+1. Másold le a dokumentáció sablont vagy csinálj saját dokumentációt
+1. Másold le a dokumentációba a táblákat és az attribútumokat `TáblaNeve(attributum1, attributum2, attributum3)`
 2. Utána a kapcsolatokat is képezd le [puska](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/kapcsolatok_lekpezse_relcismv.html)
 3. Jelöld a kulcsokat és a külső kulcsokat
 4. Írd fel a funkcionális függőségeket
