@@ -3,7 +3,7 @@
 ## 0. Nézd át a követelményeket és a dokumentáció sablont
 
 - [adatbazisok_kovetelmenyek_TEA_2022.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/adatbazisok_kovetelmenyek_TEA_2022.pdf)
-   - A szürke részek a kötelező elemek
+   - Figyelj a kötelező elemekre!
 - [MINTA_Dokumentacio.md](MINTA_Kiss_Jóska_HGKTT_AdatbazisKezeles_Dokumentacio.md)
 
 ## 1. Tervezd meg a táblákat és a funkciókat majd rajzold meg az Egyed-kapcsolat diagrammot
