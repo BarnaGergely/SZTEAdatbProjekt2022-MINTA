@@ -12,7 +12,8 @@
    - A tábla neve ne legyen többesszámban
 2. Kitalálod milyen tulajdonságokat (attribútumok) kellene a táblákhoz
 3. Megcsinálod a diagrammot ([draw.io](https://draw.io/))
-4. **Még egyszer átnézed a követelményeket, hogy biztos megfelel e!**
+4. Kitalálod milyen kapcsolat van a táblák között
+5. **Még egyszer átnézed a hogy szintaktikailag és logikailag helyes e és hogy biztos megfelel e a követelményeknek!**
 
 - [Egyed-kapcsolat diagram - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka.html)
 
