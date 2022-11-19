@@ -4,7 +4,7 @@
 
    - pl.: Hotel, Webshop, pizzéria, kávézó, "dvd" kölcsönző, linux iso torrent oldal, leltár, Kv fogyasztási szokás követése, etc.
 
-2. Józan paraszti ésszel végiggondolod milyen táblákat érdemes a kiválasztott témában tárolni 
+2. Józan paraszti ésszel végiggondolod milyen táblákat érdemes tárolni 
 
    - pl.: Diák, Tanár, Óra, Termék, Rendelés, Felhasználó, stb.).
 
