@@ -19,12 +19,12 @@
 
 ## 3. Képezd képezd le relációsémákká a táblákat és hozdd létre a dokumentációt
 
-1. Másold le a dokumentáció sablont vagy csinálj saját dokumentációt
-1. Másold le a dokumentációba a táblákat és az attribútumokat `TáblaNeve(attributum1, attributum2, attributum3)`
-1. Utána a kapcsolatokat is képezd le [puska](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/kapcsolatok_lekpezse_relcismv.html)
-1. Jelöld a kulcsokat és a külső kulcsokat
-1. Írd fel a funkcionális függőségeket
-1. Ha nem lenne 3NF-ben, normalizálj 3NF-ig
+1. Másold le a [Minta_Dokumentációt ](MINTA_Kiss_Jóska_HGKTT_AdatbazisKezeles_Dokumentacio.md) vagy csinálj saját dokumentációt
+2. Másold le a dokumentációba a táblákat és az attribútumokat `TáblaNeve(attributum1, attributum2, attributum3)`
+3. Utána a kapcsolatokat is képezd le [puska](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/kapcsolatok_lekpezse_relcismv.html)
+4. Jelöld a kulcsokat és a külső kulcsokat
+5. Írd fel a funkcionális függőségeket
+6. Ha nem lenne 3NF-ben, normalizálj 3NF-ig
    - Ha rögötön 3NF-ben van egy tábla akkor is igazlni kell hogy abban van egy kis leírással. [Normalizálás - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka2.html)-ban van erről szó.
 
 - [Leképezés - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html)
