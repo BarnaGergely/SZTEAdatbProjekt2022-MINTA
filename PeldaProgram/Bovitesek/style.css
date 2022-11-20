@@ -1,0 +1,97 @@
+/*
+Ez egy elég üres CSS sablon, amit logikusan felépítettem és néhány alap formázást már felvittem bele.
+
+Formáld át minél jobban, hogy ne látszódjon, hogy másolt, vagy viseld a következményeit, mikor elolvassa a tanár ezt a szöveget.
+*/
+
+/* <¤>--<¤>--<¤>--<¤>--<¤>--<¤>  General  <¤>--<¤>--<¤>--<¤>--<¤>--<¤> */
+:root {
+  /*globális változók helye*/
+
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: ;
+}
+
+body {
+  margin: 0;
+  background-color: ;
+}
+
+p {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+}
+/* <¤>--<¤>--<¤>--<¤>--<¤>--<¤>-  Layout  <¤>--<¤>--<¤>--<¤>--<¤>--<¤> */
+
+/* <¤>--<¤>--<¤>--<¤>--<¤>--<¤>-  Buttons  <¤>--<¤>--<¤>--<¤>--<¤>--<¤> */
+
+button,
+input[type="reset"],
+input[type="submit"] {
+  border: 0;
+  padding: 0.5rem;
+}
+
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+}
+
+/* <¤>--<¤>--<¤>--<¤>--<¤>--<¤> Header and menu <¤>--<¤>--<¤>--<¤>--<¤>--<¤> */
+
+header {
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  
+}
+
+/* <¤>--<¤>--<¤>--<¤>--<¤>--<¤> Table <¤>--<¤>--<¤>--<¤>--<¤>--<¤> */
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0.3rem;
+}

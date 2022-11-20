@@ -8,7 +8,8 @@ Ebbe a repo-ba gyűjötöttem össze a 2022-es SZTE Adatbázisok gyakorlat proje
 - **Dokumentáció sablon (Kardos+RF+Követelémyek egyben): [MINTA_Kiss_Jóska_HGKTT_AdatbazisKezeles_Dokumentacio.md](MINTA_Kiss_Jóska_HGKTT_AdatbazisKezeles_Dokumentacio.md)**
 - Projekt teendői lépésről lépésre: [Projekt_lepesek.md](Projekt_lepesek.md)
 - Random dokumentáció sablon Kardos gyakvezírtül: [mintadoksi.pdf](mintadoksi.pdf)
-- Előadó által készített kész és jó program: [Könyvtári alkalmazás](PeldaProgram)
+- Előadó által készített kész és "gyárilag" hibás program: [Könyvtári alkalmazás](PeldaProgram/Eredeti/)
+  - [Javítás](PeldaProgram/Javitasok/) - írd felül az eredeti fájlt
 
 ## Hasznos linkek:
 - [Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html) 
