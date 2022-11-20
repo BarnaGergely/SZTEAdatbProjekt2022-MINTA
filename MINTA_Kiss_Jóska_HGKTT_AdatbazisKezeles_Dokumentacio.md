@@ -1,14 +1,15 @@
-# Követelmények
+# Hasznos cuccok
 
-- **A teljes követelmény lista a [adatbazisok_kovetelmenyek_TEA_2022.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/adatbazisok_kovetelmenyek_TEA_2022.pdf) fájlban van felsorolva.**
+- **Így csináld meg gyorsan a KötProgot: [QUICK START GUIDE](QUICK_START_GUIDE.md)**
+- **A teljes követelmény lista: [adatbazisok_kovetelmenyek_TEA_2022.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/adatbazisok_kovetelmenyek_TEA_2022.pdf)**
   - Próbáltam bele írni minden részhez egy 3-as teljesítésének követelményeit, de ez nem teljes.
-- Random sablon valamelyik gyakvezírtűl: [mintadoksi.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/mintadoksi.pdf)
-- Projekt ajánlott lépései (neten találtam, még nem teljesen aktulizáltam): [Projekt_lepesek.md](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/Projekt_lepesek.md)
-- **[Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html)** 
-  - Minden témánál van egy projektmunka menüpont, ahol egy minta projektben bemutatja a tanár mit kell csinálni. Ezekre minden képpen nézz rá!
-- **Előadó által készített kész és jó program: [Könyvtári alkalmazás](PeldaProgram)**
+- **Előadó által készített kész példa program és javítások hozzá: [Könyvtári alkalmazás](PeldaProgram)**
   - Ez elvileg mindent tud, ami a 2-eshez kell, nincs benne elég tábla
   - lemásolod, átalakítod a saját projektednek megfelelően és kész a projekt
+- Random dokumentáció sablon valamelyik gyakvezírtűl: [mintadoksi.pdf](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/mintadoksi.pdf)
+- Projekt ajánlott lépései (neten találtam, még nem teljesen aktulizáltam): [Projekt_lepesek.md](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/Projekt_lepesek.md)
+- [Adatbázisok gyakorlati jegyzet](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/index.html)
+  - Minden témánál van egy projektmunka menüpont, ahol egy minta projektben bemutatja a tanár mit kell csinálni. Ezekre minden képpen nézz rá!
 
 ## Követelmények röviden:
 
@@ -23,7 +24,7 @@
 - CRUD
 - legalább 3 összetett lekérdezés
 
-## A programhoz a tervezési PDF dokumentáció az alábbiakat tartalmazza:
+### A programhoz a tervezési PDF dokumentáció az alábbiakat tartalmazza:
 
 - A feladat megnevezése
 - A feladat specifikációja, leírása
@@ -38,6 +39,7 @@
 ## Konvertálás
 
 Ezekkel tudod a dokumentációt normális formátumba konvertárni (PDF-ben kell beadni):
+
 - [MarkDown -> WordDoc konverter](https://products.aspose.app/pdf/conversion/md-to-word)
 - [MarkDown -> PDF](https://www.markdowntopdf.com/)
 
@@ -51,10 +53,10 @@ A blokkokban lévő szövegek és az ez a mondat alatt lévő vonal feletti rés
 
 <>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<> E felett törlj mindent!
 
-# Könyvtár adatbázisok kötelező feladat
+# Könyvtár kezelő rendszer - Adatbázisok kötelező feladat
 
 - Név: Kiss Jóska
-- Neptun kód: 
+- Neptun kód:
 
 ## Rendszerspecifikáció
 
@@ -148,7 +150,7 @@ KÖNYV(_<u>könyvszám</u>_, cím, kiadó, kiadás éve)
 
 SZERZŐK(_<u>könyvszám</u>_, szerzőnév, sorszám)
 
-KÖLCSÖNZÉSEK(_<u>könyvszám, olvasószám, _<u>kölcsönzés időpontja</u>_, visszahozta)
+KÖLCSÖNZÉSEK(_<u>könyvszám, olvasószám, _<u>kölcsönzés időpontja</u>\_, visszahozta)
 
 ```
 Ide a fenti EK-modell relációs adatbázissémára történő leképezésének eredménye
@@ -175,7 +177,7 @@ Követelmények:
 ## Normalizálás
 
 ### Funkcionális függőségek
- 
+
 1. {olvasójegy} →{név, lakcím, születési dátum}
 2. {olvasójegy, születési dátum} →{név, lakcím}
 3. {olvasójegy, név} →{lakcím, születési dátum}
@@ -183,7 +185,7 @@ Követelmények:
 5. stb.
 
 ### Kulcsok
-  
+
 ### 1NF
 
 ### 2NF
