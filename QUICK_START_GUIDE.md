@@ -17,7 +17,7 @@
 
 - [Egyed-kapcsolat diagram - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka.html)
 
-## 3. Képezd képezd le relációsémákká a táblákat és hozdd létre a dokumentációt
+## 3. Képezd le relációsémákká a táblákat és hozdd létre a dokumentációt
 
 1. Másold le a [Minta_Dokumentációt ](MINTA_Kiss_Jóska_HGKTT_AdatbazisKezeles_Dokumentacio.md) vagy csinálj saját dokumentációt
 2. Képezd le a dokumentációba a táblákat és az attribútumokat `TáblaNeve(attributum1, attributum2, attributum3)`
