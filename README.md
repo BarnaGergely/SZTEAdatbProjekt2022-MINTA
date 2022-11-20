@@ -4,7 +4,7 @@ Ebbe a repo-ba gyűjötöttem össze a 2022-es SZTE Adatbázisok gyakorlat proje
 
 ## UPDATE
 
-### 2022.11.20 - QUICK START GUIDE
+### 2022.11.20 - [QUICK START GUIDE](QUICK_START_GUIDE.md)
 
 Készítettem egy rövid lépésről lépésre végig vezető tutorialt, amivel ha ügyes vagy pár nap alatt megcsinálhatod a KötProgot.
 
