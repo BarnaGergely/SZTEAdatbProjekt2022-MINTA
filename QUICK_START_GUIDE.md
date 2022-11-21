@@ -44,7 +44,7 @@
      - RESTRICT: Ha a szülőt megprobáljuk törölni és van hozzá kapcsolt gyerek, hibával elszáll
      - Set NULL? Ga a szülöt törlöd a rá hivatkozó gyerek hivatkozása NULL lesz
 
-- [PHPMYADMIN - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka3.html)
+- [PHPMYADMIN - Példa program - TUTORIAL VIDEÓ](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka3.html)
 
 ## 4. Másold le a példa alkamazást
 
@@ -56,7 +56,7 @@
 - A localhost/létrehozottmappaneve - url címen érheted el a böngészőből a weblapodat, ha fut az Apache és a MYSQL
 - [Példaprogram leírása](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_knyvtri_alkalmazs_tovbbfejlesztse_phpben.html)
   - a bal oldali menüben találsz róla sok mindent (Menü, Könyv felvitele és listázása, stb. menüpontok alatt)
-- [PHP rövid áttekintése](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_php_nyelvi_elemeinek_rvid_ttekintse.html)
+- [PHP rövid áttekintése (by AdatB tanárok)](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_php_nyelvi_elemeinek_rvid_ttekintse.html)
 - [PHP érthetően (WebTerv gyak. 6-12. fejezet)](https://okt.inf.szte.hu/webtervezes/gyakorlat/fejezet6/)
 - [Adatbázis kezelés mysqli-vel](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_csatlakozs_menete_mysqli__fggvnyekkel.html)
 - [Rövid PHP oktató videó a nagyon alapokról](https://youtu.be/6mO1UA1r-6Q)
@@ -95,13 +95,13 @@
 
 - [Példaprogram leírása](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_knyvtri_alkalmazs_tovbbfejlesztse_phpben.html)
   - a bal oldali menüben találsz róla sok mindent (Menü, Könyv felvitele és listázása, stb. menüpontok alatt)
-- [Lekérdezések - Péla megoldás, példaprogram](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka5.html)
+- [Lekérdezések - Példa program - TUTORIAL VIDEÓ](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka5.html)
 
 ## 6. Bővítsd a funkciókat: (Törlés, létrehozás, módosítás, stb.)
 
 - **Ne hasonlítson programod nagy mértékben példaprogramokra** vagy bármire, amit a repo-ban találsz! ;)
 - Minden táblához legalább egy de inkább több funkciót meg kell valósítanod. - [követelményekben](https://github.com/BarnaGergely/SZTEAdatBProjekt2022-MINTA/blob/main/adatbazisok_kovetelmenyek_TEA_2022.pdf) írnak erről bővebben
-- [Adatbeszúrás, módosítás és törlés - Péla megoldás, példaprogram](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka4.html)
+- [Adatbeszúrás, módosítás és törlés - Példa program - TUTORIAL VIDEÓ](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka4.html)
 
 ## 7. Készíts demó adatokat
 
@@ -111,7 +111,7 @@
 ## 8. Készíts összetett lekérdezéseket
 
 - Figyelj a követelményekre! - Legyen leg. 3db különböző összetett (nem triviális) lekérdezés. Legyen bennük csoportosítás, al lekérdezés, tábla összevonás, stb.
-- [Lekérdezések - Péla megoldás, példaprogram](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka5.html)
+- [Lekérdezések - Példa program - TUTORIAL VIDEÓ](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka5.html)
 
 ## 9. Írd meg a Dokumentációt
 
