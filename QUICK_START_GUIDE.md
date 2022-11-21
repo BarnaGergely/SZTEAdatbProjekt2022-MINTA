@@ -38,6 +38,11 @@
 3. Hozd létre a táblákat és az attribútumokat
    - Ne felejsd el jelölni a kulcsot minden táblán
 4. Jelöld a külső kulcsot a táblákban
+   - Ne feledd, a gyereket (amiben a külső kulcs van) kötjük a szülőhöz (ameyikre mutat a külső kulcs)
+   - Delete and updare Rules:
+    - CASCADE: Ha a szülőt töröljök, a gyerek is törlődit
+    - RESTRICT: Ha a szülőt megprobáljuk törölni és van hozzá kapcsolt gyerek, hibával elszáll
+    - Set NULL? Ga a szülöt törlöd a rá hivatkozó gyerek hivatkozása NULL lesz
 
 - [PHPMYADMIN - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka3.html)
 
