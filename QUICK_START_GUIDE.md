@@ -50,7 +50,7 @@
 
 1. A XAMPP mappájában a htdocs mappában csinálj egy mappát a projektednek
 2. Másold bele ebbe a [példaprogramot](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_knyvtri_alkalmazs_tovbbfejlesztse_phpben.html)
-3. Másold bele a [javítást](PeldaProgram/Javitasok/) (db_fuggvenyek.php-ban fájl) és írd felül az eredetit (hibás a program, amit kaptunk a tanároktól)
+3. Másold bele a [javítást](PeldaProgram/Javitasok/) (db_fuggvenyek.php fájl) és írd felül az eredetit (hibás a program, amit kaptunk a tanároktól)
 4. Nézd át, hogy hogy működik a példaprogram (ehhez van egy [rövid leírás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_knyvtri_alkalmazs_tovbbfejlesztse_phpben.html) is a letöltés oldal bal oldali menüjében (Menü, Könyv felvitele és listázása, stb. menüpontok))
 
 - A localhost/létrehozottmappaneve - url címen érheted el a böngészőből a weblapodat, ha fut az Apache és a MYSQL
