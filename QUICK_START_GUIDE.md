@@ -44,7 +44,7 @@
      - RESTRICT: Ha a szülőt megprobáljuk törölni és van hozzá kapcsolt gyerek, hibával elszáll
      - Set NULL? Ga a szülöt törlöd a rá hivatkozó gyerek hivatkozása NULL lesz
 
-- [phpMyAdmin Adatbázis létrehozáa - Példa program - TUTORIAL VIDEÓ](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka3.html)
+- [phpMyAdmin Adatbázis létrehozása - Példa program - TUTORIAL VIDEÓ](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka3.html)
 
 ## 4. Másold le a példa alkamazást
 
