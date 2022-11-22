@@ -33,7 +33,7 @@
 
 ## 3. Hozd létre az adatbázist PHPMYADMIN-ban
 
-1. Telepítsd a XAMPP-ot
+1. Telepítsd és indítsd el a XAMPP-ot (Apache, MySQL fog kelleni)
 2. Hozd létre az adatbázist utf8mb4-hugarian-cli karakterkészlettel
 3. Hozd létre a táblákat és az attribútumokat
    - Ne felejsd el jelölni a kulcsot minden táblán
