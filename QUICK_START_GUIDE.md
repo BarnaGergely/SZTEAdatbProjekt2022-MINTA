@@ -33,8 +33,8 @@
 
 ## 3. Hozd létre az adatbázist PHPMYADMIN-ban
 
-1. Telepítsd a XAMPP-ot
-2. Hozd létre az adatbázist utf8-hugarian-cli karakterkészlettel
+1. Telepítsd és indítsd el a XAMPP-ot (Apache, MySQL fog kelleni)
+2. Hozd létre az adatbázist utf8mb4-hugarian-cli karakterkészlettel
 3. Hozd létre a táblákat és az attribútumokat
    - Ne felejsd el jelölni a kulcsot minden táblán
 4. Jelöld a külső kulcsokat a táblákban (Relational View)
@@ -50,7 +50,7 @@
 
 1. A XAMPP mappájában a htdocs mappában csinálj egy mappát a projektednek
 2. Másold bele ebbe a [példaprogramot](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_knyvtri_alkalmazs_tovbbfejlesztse_phpben.html)
-3. Másold bele a [javítást](PeldaProgram/Javitasok/) is és írd felül az eredetit (hibás a program, amit kaptunk a tanároktól)
+3. Másold bele a [javítást](PeldaProgram/Javitasok/) (db_fuggvenyek.php fájl) és írd felül az eredetit (hibás a program, amit kaptunk a tanároktól)
 4. Nézd át, hogy hogy működik a példaprogram (ehhez van egy [rövid leírás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/a_knyvtri_alkalmazs_tovbbfejlesztse_phpben.html) is a letöltés oldal bal oldali menüjében (Menü, Könyv felvitele és listázása, stb. menüpontok))
 
 - A localhost/létrehozottmappaneve - url címen érheted el a böngészőből a weblapodat, ha fut az Apache és a MYSQL
