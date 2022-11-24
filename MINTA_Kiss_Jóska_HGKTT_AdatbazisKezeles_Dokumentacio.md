@@ -207,6 +207,8 @@ Követelmények:
 
 {könyvszám, visszahozta, kölcsönzés időpontja}  → {olvasójegy}
 
+[Funkcionális függőség - Példa megoldás](http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka1.html)
+
 ### Kulcsok
   
 OLVASÓ(olvasójegy, név, lakcím, születési dátum)
@@ -242,7 +244,9 @@ mondattal javasolt ezt megindokolni (a definíciók alapán). Ha nem, akkor el k
 végezni a szükséges átalakításokat a 2NF-re ill. 3NF-re hozáshoz, és felírni az ennek
 során módosult ill. új sémákat.
 
-  Minta megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html
+  Leképezés - Példa megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka0.html
+  Funkcionális függőség - Példa megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka1.html
+  Normalizálás - Példa megoldás: http://www.inf.u-szeged.hu/~gnemeth/kurzusok/adatbgyak/exe/AdatbazisokGyakorlat2020/projektmunka2.html
 ```
 
 ```
