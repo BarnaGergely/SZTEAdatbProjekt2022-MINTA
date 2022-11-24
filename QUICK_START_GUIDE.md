@@ -63,9 +63,9 @@
 
 ## 5. Alakítsd át a sablont, hogy a te adatbázisodhoz megfelelő legyen
 
-1. Hozd létre az adatbázis kapcsolatot a db_fuggvenyek connect metódusában
+1. Hozd létre az adatbázis kapcsolatot a db_fuggvenyek connect metódusában (át kell írni, hogy ne a KONYVTAR, hanem a te adatbázisodra próbáljon csatlakozni)
 2. Menj végig az oldalakhoz tartozó php fájlokon és alakítsd át a saját témádnak megfelelően
-   - Először érdemes egy oldalon lekérdezéseket megcsinálni
+   - Először érdemes egy oldalon a lekérdezéseket megcsinálni
    - Az adatbázis és form kezelő függvényekről és fájlokról se feletkezz meg
 
 - **Ne hasonlítson programod nagy mértékben példaprogramokra** vagy bármire, amit a repo-ban találsz! ;) - ez is kötelező követelmény
