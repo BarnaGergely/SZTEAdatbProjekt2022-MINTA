@@ -60,8 +60,6 @@ A blokkokban lévő szövegek és az ez a mondat alatt lévő vonal feletti rés
 
 ## Rendszerspecifikáció
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 ```
 Ide egy tömör, 3-6 soros bekezdés kerüljön arról, hogy mire szolgál az adatbázis és a
 program. A pirossal jelölt részeket kell megfogalmazni a saját munka alapján.
@@ -77,19 +75,6 @@ Követelmények:
 ```
 
 ## Funkciók
-
-- foglalások kezelése
-  - ki mikorra, melyik szobát foglalta le
-  - foglalás állapotának követése: megjelent, kijeletnkezett, aktív, stb.
-- Vendégek adatainak nyilvántartása
-  - Név, sz. ig szám tárolása és szerkesztése
-  - Foglalásaik megtekintése
-- Szobák nyilvántartása
-  - Létre lehet hozni, szerkeszteni és törölni őket
-  - Meg lehet nézni mikor lettek legutóbb kitakarítva és éppen lakik e valaki bennük
-- Takarítók nyilvántartása
-  - A takarítók adatait el lehet tárolni, szerekeszteni vagy törölni az adatbázisban
-  - Meg lehet nézni és be lehet állítani, mikor és mit takarított az adott takarító
 
 ```
 Meg kellene fogalmazni, hogy mit csinál az alkalmazás, milyen szolgáltatásokkal és
@@ -126,8 +111,6 @@ Kiegészítő elemek:
 ```
 
 ## Egyed-Kapcsolat diagram leírása
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ```
 A diagramot magyarázó szövegnek kell itt szerepelnie.
@@ -178,13 +161,73 @@ Követelmények:
 
 ### Funkcionális függőségek
 
-1. {olvasójegy} →{név, lakcím, születési dátum}
-2. {olvasójegy, születési dátum} →{név, lakcím}
-3. {olvasójegy, név} →{lakcím, születési dátum}
-4. {olvasójegy, lakcím} →{név, születési dátum}
-5. stb.
+{olvasójegy} →{név, lakcím, születési dátum}
+
+{olvasójegy, születési dátum} →{név, lakcím}
+
+{olvasójegy, név} →{lakcím, születési dátum}
+
+{olvasójegy, lakcím} →{név, születési dátum}
+
+{olvasójegy, lakcím, születési dátum} →{név}
+
+{olvasójegy, lakcím, név} →{születési dátum}
+
+ <br/>
+  
+{könyvszám} → {cím, kiadó, kiadási év}
+
+{könyvszám, cím} → {kiadó, kiadási év}
+
+{könyvszám, kiadó} → {cím, kiadási év}
+
+{könyvszám, kiadási év} → {cím, kiadó}
+
+{könyvszám, cím, kiadó} → {kiadási év}
+
+{könyvszám, cím, kiadási év} → {kiadó}
+  
+   <br/>
+
+{könyvszám, szerzőnév} → {sorszám}
+
+{könyvszám, sorszám} → {szerzőnév}
+
+ <br/>
+
+{könyvszám, kölcsönzés időpontja} → {olvasójegy, visszahozta}
+
+{könyvszám, visszahozta}  → {olvasójegy, kölcsönzés időpontja}
+
+{könyvszám, kölcsönzés időpontja, olvasójegy} → {visszahozta}
+
+{könyvszám, kölcsönzés időpontja, visszahozta} → {olvasójegy}
+
+{könyvszám, visszahozta, olvasójegy}  → {kölcsönzés időpontja}
+
+{könyvszám, visszahozta, kölcsönzés időpontja}  → {olvasójegy}
 
 ### Kulcsok
+  
+OLVASÓ(olvasójegy, név, lakcím, születési dátum)
+  
+- Kulcs: olvasójegy
+- Ez a legszűkebb halmaz, amelynek lezártja visszaadja a teljes attribútumhalmazt.
+  
+KÖNYV(könyvszám, cím, kiadó, kiadási év)
+  
+- Kulcs: könyvszám
+  
+- Ez a legszűkebb halmaz, amelynek lezártja visszaadja a teljes attribútumhalmazt.
+SZERZŐK(könyvszám, szerzőnév, sorszám)
+  
+- Kulcs: {könyvszám, sorszám}
+- Ez a legszűkebb halmaz, amelynek lezártja visszaadja a teljes attribútumhalmazt.
+  
+KÖLCSÖNZÉSEK(könyvszám, olvasójegy, kölcsönzés időpontja, visszahozta)
+  
+- Kulcsok: {könyvszám, kölcsönzés időpontja}, {könyvszám, visszahozta}
+- Ezek a legszűkebb halmazok, amelynek lezártja visszaadja a teljes attribútumhalmazt.
 
 ### 1NF
 
